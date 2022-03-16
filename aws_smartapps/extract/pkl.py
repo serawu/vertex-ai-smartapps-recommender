@@ -1,3 +1,4 @@
 import pickle
 
-pickle.load(open('model.pkl', 'rb'))
+with open('model.pkl', 'rb') as f:
+    x = pickle.load(f)

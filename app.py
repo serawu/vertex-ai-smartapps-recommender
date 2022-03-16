@@ -1,0 +1,3 @@
+from recommender.inference_result import display_inference_result
+
+display_inference_result()
